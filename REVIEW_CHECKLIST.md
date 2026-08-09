@@ -18,6 +18,7 @@ Ajanee approved this repository for public GitHub publication on August 8, 2026.
 - [x] No protected health information, credentials, private URLs, or unpublished employer material is present.
 - [x] AI boundaries are clear and do not imply clinical decision-making.
 - [x] Accessibility and equity considerations are represented.
+- [x] Five standalone portfolio visuals are present, embedded, and have accessible titles and descriptions.
 - [ ] Add an explicit reuse license later if Ajanee wants others to reuse the material.
 
 ## Publishing decision

@@ -4,6 +4,8 @@
 
 Create a coordination view over existing portal and clinical systems without becoming a second source of clinical truth.
 
+![Conceptual architecture connecting authoritative sources, orchestration, constrained AI, and people](../assets/visuals/conceptual-architecture.svg)
+
 ```mermaid
 flowchart TB
     subgraph Sources["Authoritative sources"]

@@ -10,6 +10,8 @@ This is a focused secondary-research synthesis, not a systematic review. Sources
 
 ## Evidence summary
 
+![Research validation matrix for five patient portal pain points](../assets/visuals/research-validation-matrix.svg)
+
 | Area | Confidence | Evidence-based interpretation | Product implication |
 |---|---|---|---|
 | Scheduling and cancellation | Strong | Self-service tools can improve convenience and efficiency, but uptake, eligibility, and equity vary. | Expose eligible actions, explain why an action is unavailable, and preserve phone/accessibility alternatives. |

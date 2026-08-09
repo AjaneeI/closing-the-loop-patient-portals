@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Conceptual system architecture</title>
+  <desc id="desc">Three-layer architecture connecting authoritative health system sources to a care timeline orchestration layer and an optional constrained AI layer.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L9 3L0 6Z" fill="#64748b"/></marker></defs>
+  <rect width="1200" height="675" fill="#f7f9fc"/>
+  <text x="60" y="62" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#173b57">Conceptual architecture</text>
+  <text x="60" y="91" font-family="Arial, sans-serif" font-size="16" fill="#64748b">Coordination over authoritative systems—not a second clinical record</text>
+  <rect x="55" y="125" width="300" height="450" rx="18" fill="#eef6ff" stroke="#7aa7cf" stroke-width="2"/>
+  <text x="205" y="164" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#173b57">Authoritative sources</text>
+  <g font-family="Arial, sans-serif" font-size="16" fill="#173b57">
+    <rect x="85" y="198" width="240" height="58" rx="10" fill="#fff" stroke="#b9cfe3"/><text x="205" y="233" text-anchor="middle">Appointments and scheduling</text>
+    <rect x="85" y="276" width="240" height="58" rx="10" fill="#fff" stroke="#b9cfe3"/><text x="205" y="311" text-anchor="middle">Orders, results, documents</text>
+    <rect x="85" y="354" width="240" height="58" rx="10" fill="#fff" stroke="#b9cfe3"/><text x="205" y="389" text-anchor="middle">Approved tasks and instructions</text>
+    <rect x="85" y="432" width="240" height="58" rx="10" fill="#fff" stroke="#b9cfe3"/><text x="205" y="467" text-anchor="middle">Outside-record workflows</text>
+    <rect x="85" y="510" width="240" height="42" rx="10" fill="#fff" stroke="#b9cfe3"/><text x="205" y="537" text-anchor="middle">Identity and access</text>
+  </g>
+  <rect x="450" y="125" width="300" height="450" rx="18" fill="#eaf7f4" stroke="#6ab7a8" stroke-width="2"/>
+  <text x="600" y="164" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#173b57">Care Timeline services</text>
+  <g font-family="Arial, sans-serif" font-size="16" fill="#173b57">
+    <rect x="480" y="198" width="240" height="58" rx="10" fill="#fff" stroke="#9ed4ca"/><text x="600" y="233" text-anchor="middle">Episode resolver</text>
+    <rect x="480" y="276" width="240" height="58" rx="10" fill="#fff" stroke="#9ed4ca"/><text x="600" y="311" text-anchor="middle">Task and state engine</text>
+    <rect x="480" y="354" width="240" height="58" rx="10" fill="#fff" stroke="#9ed4ca"/><text x="600" y="389" text-anchor="middle">Policy and access control</text>
+    <rect x="480" y="432" width="240" height="58" rx="10" fill="#fff" stroke="#9ed4ca"/><text x="600" y="467" text-anchor="middle">Notifications and routing</text>
+    <rect x="480" y="510" width="240" height="42" rx="10" fill="#fff" stroke="#9ed4ca"/><text x="600" y="537" text-anchor="middle">Audit and analytics</text>
+  </g>
+  <rect x="845" y="125" width="300" height="270" rx="18" fill="#fff6e8" stroke="#d7a94f" stroke-width="2"/>
+  <text x="995" y="164" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#173b57">Optional constrained AI</text>
+  <g font-family="Arial, sans-serif" font-size="16" fill="#173b57">
+    <rect x="875" y="198" width="240" height="50" rx="10" fill="#fff" stroke="#e3c98f"/><text x="995" y="229" text-anchor="middle">Approved-source retrieval</text>
+    <rect x="875" y="266" width="240" height="50" rx="10" fill="#fff" stroke="#e3c98f"/><text x="995" y="297" text-anchor="middle">Plain-language transformation</text>
+    <rect x="875" y="334" width="240" height="38" rx="10" fill="#fff" stroke="#e3c98f"/><text x="995" y="359" text-anchor="middle">Grounding and safety checks</text>
+  </g>
+  <rect x="845" y="430" width="300" height="145" rx="18" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="995" y="469" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#173b57">People and workflows</text>
+  <text x="995" y="511" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">Patient or authorized proxy</text>
+  <text x="995" y="543" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">Care-team review queues</text>
+  <path d="M355 350H442" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M750 270H837" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M845 503H758" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="55" y="605" width="1090" height="42" rx="10" fill="#e8edf3"/>
+  <text x="600" y="632" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#475569">Clinical content remains in authoritative systems; the timeline stores references, state, ownership, and audit history.</text>
+</svg>

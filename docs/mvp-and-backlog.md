@@ -4,6 +4,8 @@
 
 An eligible outpatient can understand the state of a care episode and complete required non-clinical and provider-defined follow-up tasks without searching across multiple portal areas or making an avoidable status call.
 
+![Three-phase MVP scope and release path](../assets/visuals/mvp-scope.svg)
+
 ## Scope rules
 
 - Use existing authoritative data and content wherever possible.

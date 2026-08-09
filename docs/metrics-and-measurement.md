@@ -4,6 +4,8 @@
 
 Measure whether patients complete care-navigation work safely and equitably—not whether they merely open the portal or click an AI feature.
 
+![KPI framework with closed-loop completion as the north star](../assets/visuals/kpi-framework.svg)
+
 ## North-star metric
 
 ### Closed-loop completion rate

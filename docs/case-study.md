@@ -58,6 +58,8 @@ The five original pain points were scheduling/cancellation, outside records, vis
 
 Care Timeline is an orchestration layer, not a new clinical record. It assembles references to existing authoritative objects and adds workflow state.
 
+![Care Timeline interface concept](../assets/visuals/care-timeline-prototype.svg)
+
 ```mermaid
 sequenceDiagram
     participant P as Patient

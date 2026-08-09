@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Care Timeline KPI framework</title>
+  <desc id="desc">A KPI tree with closed-loop completion as the north star and branches for patient action, care-team resolution, comprehension, and safety and equity.</desc>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L9 3L0 6Z" fill="#94a3b8"/></marker></defs>
+  <rect width="1200" height="675" fill="#f7f9fc"/>
+  <text x="60" y="58" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#173b57">Measurement framework</text>
+  <text x="60" y="87" font-family="Arial, sans-serif" font-size="16" fill="#64748b">Success means care-navigation work is completed safely and equitably—not merely viewed</text>
+  <rect x="360" y="116" width="480" height="88" rx="18" fill="#173b57"/>
+  <text x="600" y="151" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#b9e9e0">NORTH-STAR OUTCOME</text>
+  <text x="600" y="181" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#fff">Closed-loop completion rate</text>
+  <path d="M600 204V244M600 244H165V274M600 244H455V274M600 244H745V274M600 244H1035V274" fill="none" stroke="#94a3b8" stroke-width="3"/>
+  <g font-family="Arial, sans-serif">
+    <rect x="50" y="274" width="230" height="70" rx="14" fill="#eaf7f4" stroke="#6ab7a8" stroke-width="2"/><text x="165" y="303" text-anchor="middle" font-size="17" font-weight="700" fill="#173b57">Patients can act</text><text x="165" y="328" text-anchor="middle" font-size="14" fill="#475569">Leading behavior</text>
+    <rect x="340" y="274" width="230" height="70" rx="14" fill="#eef6ff" stroke="#7aa7cf" stroke-width="2"/><text x="455" y="303" text-anchor="middle" font-size="17" font-weight="700" fill="#173b57">Dependencies resolve</text><text x="455" y="328" text-anchor="middle" font-size="14" fill="#475569">Workflow reliability</text>
+    <rect x="630" y="274" width="230" height="70" rx="14" fill="#fff6e8" stroke="#d7a94f" stroke-width="2"/><text x="745" y="303" text-anchor="middle" font-size="17" font-weight="700" fill="#173b57">Information is understood</text><text x="745" y="328" text-anchor="middle" font-size="14" fill="#475569">Comprehension</text>
+    <rect x="920" y="274" width="230" height="70" rx="14" fill="#f4efff" stroke="#9d81c9" stroke-width="2"/><text x="1035" y="303" text-anchor="middle" font-size="17" font-weight="700" fill="#173b57">Safe and equitable</text><text x="1035" y="328" text-anchor="middle" font-size="14" fill="#475569">Guardrails</text>
+  </g>
+  <g stroke="#cbd5e1" stroke-width="2"><path d="M165 344V384"/><path d="M455 344V384"/><path d="M745 344V384"/><path d="M1035 344V384"/></g>
+  <g font-family="Arial, sans-serif" font-size="15" fill="#173b57">
+    <rect x="50" y="384" width="230" height="54" rx="9" fill="#fff" stroke="#cbd5e1"/><text x="165" y="417" text-anchor="middle">Patient task completion</text>
+    <rect x="50" y="454" width="230" height="54" rx="9" fill="#fff" stroke="#cbd5e1"/><text x="165" y="487" text-anchor="middle">Self-service resolution</text>
+    <rect x="340" y="384" width="230" height="54" rx="9" fill="#fff" stroke="#cbd5e1"/><text x="455" y="417" text-anchor="middle">Outside-record review time</text>
+    <rect x="340" y="454" width="230" height="54" rx="9" fill="#fff" stroke="#cbd5e1"/><text x="455" y="487" text-anchor="middle">Pending-task aging</text>
+    <rect x="630" y="384" width="230" height="54" rx="9" fill="#fff" stroke="#cbd5e1"/><text x="745" y="417" text-anchor="middle">Clarification-contact rate</text>
+    <rect x="630" y="454" width="230" height="54" rx="9" fill="#fff" stroke="#cbd5e1"/><text x="745" y="487" text-anchor="middle">Comprehension task success</text>
+    <rect x="920" y="384" width="230" height="54" rx="9" fill="#fff" stroke="#cbd5e1"/><text x="1035" y="409" text-anchor="middle">Unsupported-summary</text><text x="1035" y="428" text-anchor="middle">incident rate</text>
+    <rect x="920" y="454" width="230" height="54" rx="9" fill="#fff" stroke="#cbd5e1"/><text x="1035" y="479" text-anchor="middle">Completion gap by</text><text x="1035" y="498" text-anchor="middle">access needs</text>
+    <rect x="920" y="524" width="230" height="54" rx="9" fill="#fff" stroke="#cbd5e1"/><text x="1035" y="557" text-anchor="middle">Staff workload per episode</text>
+  </g>
+  <rect x="50" y="608" width="1100" height="40" rx="10" fill="#e8edf3"/>
+  <text x="600" y="633" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#475569">All results require clear denominators, workflow-specific terminal states, and equity cuts.</text>
+</svg>

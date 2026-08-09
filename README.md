@@ -27,6 +27,8 @@ See [Research and evidence](docs/research-and-evidence.md) for sources and confi
 
 ## Proposed experience
 
+![Care Timeline prototype showing appointment, preparation, outside-record, and after-visit states](assets/visuals/care-timeline-prototype.svg)
+
 ```mermaid
 flowchart LR
     A["Appointment booked"] --> B["Preparation checklist"]
@@ -49,6 +51,16 @@ Each item displays its owner, status, due date, and source. Missing clinical con
 6. Question drafting and escalation paths when information is unclear.
 
 Detailed scope: [MVP and backlog](docs/mvp-and-backlog.md)
+
+## Visual case-study gallery
+
+| Product and scope | Evidence and measurement |
+|---|---|
+| [Care Timeline prototype](assets/visuals/care-timeline-prototype.svg) | [Research validation matrix](assets/visuals/research-validation-matrix.svg) |
+| [Conceptual architecture](assets/visuals/conceptual-architecture.svg) | [KPI framework](assets/visuals/kpi-framework.svg) |
+| [MVP release path](assets/visuals/mvp-scope.svg) | |
+
+All five visuals are stored as accessible, scalable SVG files so they remain readable on GitHub and can be reused in portfolio presentations.
 
 ## Measurement strategy
 
@@ -78,6 +90,7 @@ Definitions and experiment plan: [Metrics and measurement](docs/metrics-and-meas
 | [Metrics and measurement](docs/metrics-and-measurement.md) | KPI definitions, instrumentation, and experiment design |
 | [Decision log](docs/decision-log.md) | Key choices and tradeoffs |
 | [Portfolio kit](docs/portfolio-kit.md) | Resume, LinkedIn, and interview-ready language |
+| [Visual assets](assets/visuals/) | Five portfolio-ready diagrams and prototype views |
 
 ## What this project demonstrates
 

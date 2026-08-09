@@ -63,3 +63,11 @@
 - **Decision:** Publish `closing-the-loop-patient-portals` as a public repository under Ajanee's authenticated GitHub account.
 - **Why:** Ajanee explicitly approved the repository name and public publication.
 - **Tradeoff:** The case study and portfolio language become publicly accessible; no explicit reuse license is granted at launch.
+
+## D-009 — Add standalone portfolio visuals after publication
+
+- **Date:** August 8, 2026
+- **Status:** Accepted corrective action
+- **Decision:** Add five accessible SVG visuals covering the interface concept, architecture, KPI framework, MVP scope, and research validation matrix.
+- **Why:** The initial public commit included Mermaid diagrams but omitted the standalone visual assets promised in the marketing plan.
+- **Tradeoff:** The correction is visible as a second commit rather than part of the original publication; the decision log preserves that history transparently.
