@@ -1,53 +1,53 @@
-# Closing the Loop in Patient Portals
+# Closing the Loop in Customer Portal Journeys
 
-> A healthcare AI and product analytics case study exploring how patient portals can make care journeys easier to understand and complete.
+> A product analytics case study exploring how fragmented digital service workflows can become clearer, more measurable, and easier to complete.
 
-**Portfolio project by Ajanee** · **Status: published case study** · **Not affiliated with or endorsed by Epic Systems**
+**Portfolio project by Ajanee** · **Status: published case study** · **Public repo URL kept for continuity**
 
 ## Executive summary
 
-Patient portals give people access to appointments, results, messages, and visit information, but access alone does not guarantee task completion. Capabilities can vary by health system, specialty, visit type, and configuration. Patients may still have to piece together what happened, what is pending, and what to do next.
+Customer portals often give people access to messages, records, tasks, documents, and status updates, but access alone does not guarantee completion. People may still have to piece together what happened, what is pending, who owns the next step, and what action is needed.
 
-This case study proposes **Care Timeline**, a coordination layer for a MyChart-style portal. It brings together appointment status, preparation, outside-record status, visit documentation, approved after-care guidance, and follow-up tasks in one source-linked workflow.
+This case study proposes **Care Timeline** as a broader coordination concept for portal-based service journeys. It brings status, preparation, source-linked information, handoffs, and follow-up tasks into one workflow so customers and teams can see the loop from request to resolution.
 
-AI is deliberately constrained. It can translate provider-approved content into plain language, organize tasks, and draft questions. It cannot diagnose, triage, recommend treatment, change the medical record, or invent instructions.
+AI is deliberately constrained. It can summarize approved source material, organize tasks, draft questions, and clarify next steps. It cannot invent instructions, change source records, make autonomous decisions, or replace human review for high-impact actions.
 
 ## The product question
 
-> How might a patient portal turn fragmented information and partially self-service workflows into a closed loop where patients can see what happened, what is pending, and what they need to do next?
+> How might a customer portal turn fragmented information and partially self-service workflows into a closed loop where people can see what happened, what is pending, and what they need to do next?
 
 ## Why this problem is worth exploring
 
-- Self-scheduling can reduce staff effort and support after-hours access, but uptake and equitable access vary across populations and appointment types.
-- Cross-organization exchange has improved, yet outside information is not always available at the point of care or incorporated into the clinician workflow.
-- Immediate access to results and notes improves transparency, but access does not always mean comprehension.
-- Structured task programs already exist in modern portal ecosystems, suggesting the opportunity is a coherent experience and consistent implementation—not a claim that every capability is absent.
+- Self-service access can reduce operational strain, but only when people can complete the intended task.
+- Cross-team handoffs often create unclear ownership, duplicate outreach, and status uncertainty.
+- More information does not always mean better comprehension.
+- The opportunity is a coherent experience with clear states, source links, and measurable completion.
 
-See [Research and evidence](docs/research-and-evidence.md) for sources and confidence ratings.
+See [Research and evidence](docs/research-and-evidence.md) for the original source review and confidence ratings.
 
 ## Proposed experience
 
-![Care Timeline prototype showing appointment, preparation, outside-record, and after-visit states](assets/visuals/care-timeline-prototype.svg)
+![Care Timeline prototype showing preparation, records, status, and follow-up states](assets/visuals/care-timeline-prototype.svg)
 
 ```mermaid
 flowchart LR
-    A["Appointment booked"] --> B["Preparation checklist"]
-    B --> C["Outside records status"]
-    C --> D["Visit completed"]
+    A["Request or appointment created"] --> B["Preparation checklist"]
+    B --> C["Information status"]
+    C --> D["Service interaction completed"]
     D --> E["Approved summary and documents"]
     E --> F["Follow-up tasks"]
     F --> G["Closed loop"]
 ```
 
-Each item displays its owner, status, due date, and source. Missing clinical content is shown as missing or pending; the system does not generate it.
+Each item displays its owner, status, due date, and source. Missing or unreviewed content is shown as missing or pending; the system does not generate it.
 
 ## MVP at a glance
 
-1. A unified timeline spanning before, during, and after a visit.
-2. Explicit states: **ready**, **action needed**, **waiting on care team**, **under review**, and **complete**.
+1. A unified timeline spanning before, during, and after a service interaction.
+2. Explicit states: **ready**, **action needed**, **waiting on team**, **under review**, and **complete**.
 3. Source-linked plain-language explanations for approved content.
-4. Patient-controlled outside-record submission with review tracking.
-5. Follow-up tasks and reminders tied to the care team's documented plan.
+4. Customer-controlled information submission with review tracking.
+5. Follow-up tasks and reminders tied to documented next steps.
 6. Question drafting and escalation paths when information is unclear.
 
 Detailed scope: [MVP and backlog](docs/mvp-and-backlog.md)
@@ -60,21 +60,19 @@ Detailed scope: [MVP and backlog](docs/mvp-and-backlog.md)
 | [Conceptual architecture](assets/visuals/conceptual-architecture.svg) | [KPI framework](assets/visuals/kpi-framework.svg) |
 | [MVP release path](assets/visuals/mvp-scope.svg) | |
 
-All five visuals are stored as accessible, scalable SVG files so they remain readable on GitHub and can be reused in portfolio presentations.
-
 ## Measurement strategy
 
-The primary outcome is the share of eligible care journeys in which all required patient and care-team tasks are completed by their due dates. Guardrails cover clinical safety, equity, privacy, and staff workload.
+The primary outcome is the share of eligible journeys in which required customer and team tasks are completed by their due dates. Guardrails cover trust, privacy, fairness, unsupported automation, and staff workload.
 
 | Metric | Role |
 |---|---|
 | Closed-loop completion rate | North-star outcome |
-| Patient task completion rate | Leading behavior |
+| Customer task completion rate | Leading behavior |
 | Self-service resolution rate | Access and efficiency |
 | Clarification-contact rate | Comprehension proxy |
-| Outside-record review cycle time | Workflow reliability |
+| Information review cycle time | Workflow reliability |
 | Unsupported-summary incident rate | AI safety guardrail |
-| Completion-rate gap by access needs | Equity guardrail |
+| Completion-rate gap by access needs | Fairness guardrail |
 
 Definitions and experiment plan: [Metrics and measurement](docs/metrics-and-measurement.md)
 
@@ -82,7 +80,7 @@ Definitions and experiment plan: [Metrics and measurement](docs/metrics-and-meas
 
 | Document | What it covers |
 |---|---|
-| [Case study](docs/case-study.md) | End-to-end product narrative |
+| [Case study](docs/case-study.md) | End-to-end product narrative from the original concept |
 | [Research and evidence](docs/research-and-evidence.md) | Claims, sources, confidence, and gaps |
 | [MVP and backlog](docs/mvp-and-backlog.md) | Personas, stories, scope, prioritization, acceptance criteria |
 | [Architecture](docs/architecture.md) | Conceptual system and data flow |
@@ -90,16 +88,18 @@ Definitions and experiment plan: [Metrics and measurement](docs/metrics-and-meas
 | [Metrics and measurement](docs/metrics-and-measurement.md) | KPI definitions, instrumentation, and experiment design |
 | [Decision log](docs/decision-log.md) | Key choices and tradeoffs |
 | [Portfolio kit](docs/portfolio-kit.md) | Resume, LinkedIn, and interview-ready language |
-| [Visual assets](assets/visuals/) | Five portfolio-ready diagrams and prototype views |
+| [Visual assets](assets/visuals/) | Portfolio-ready diagrams and prototype views |
 
 ## What this project demonstrates
 
-Product analytics · healthcare product thinking · evidence synthesis · workflow design · MVP prioritization · KPI design · responsible AI scoping · risk management · portfolio communication
+Product analytics · evidence synthesis · workflow design · KPI design · responsible AI scoping · risk management · portfolio communication
 
 ## Important limitations
 
-This is a concept case study based on secondary research, not a production implementation or an evaluation of one health system's configuration. It uses no protected health information, clinical data, proprietary Epic materials, or patient-level dataset. Proposed metric targets are hypotheses to validate in discovery and pilot work, not measured results.
+This is a concept case study based on secondary research, not a production implementation or measured deployment. It uses no private customer data, proprietary system materials, or individual-level dataset. Proposed metric targets are hypotheses to validate in discovery and pilot work, not measured results.
 
-## Publication status
+## Portfolio links
 
-Ajanee approved this repository for public release on August 8, 2026. The completed [pre-publication checklist](REVIEW_CHECKLIST.md) records the review considerations used before release.
+- [Live case study](https://ajaneeigharo.com/work/mychart-patient-portal)
+- [Portfolio website](https://ajaneeigharo.com/)
+- [Ajanee on LinkedIn](https://www.linkedin.com/in/ajaneeigharo/)
