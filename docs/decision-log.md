@@ -71,3 +71,11 @@
 - **Decision:** Add five accessible SVG visuals covering the interface concept, architecture, KPI framework, MVP scope, and research validation matrix.
 - **Why:** The initial public commit included Mermaid diagrams but omitted the standalone visual assets promised in the marketing plan.
 - **Tradeoff:** The correction is visible as a second commit rather than part of the original publication; the decision log preserves that history transparently.
+
+## D-010 — Publish an explicit reproducibility and assumptions boundary
+
+- **Date:** September 23, 2026
+- **Status:** Accepted
+- **Decision:** Document which parts of the case study can be independently reviewed, which claims are hypotheses, what data is not present, and what evidence a credible pilot would need.
+- **Why:** The repository should make it difficult to mistake a well-developed product concept for a measured production deployment.
+- **Tradeoff:** The case study becomes more conservative in its claims, but the evidence quality and reviewability improve.
