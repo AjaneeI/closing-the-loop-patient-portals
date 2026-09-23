@@ -100,6 +100,6 @@ This is a concept case study based on secondary research, not a production imple
 
 ## Portfolio links
 
-- [Live case study](https://ajaneeigharo.com/work/mychart-patient-portal)
+- [Live case study](https://ajaneeigharo.com/work/closing-the-loop)
 - [Portfolio website](https://ajaneeigharo.com/)
 - [Ajanee on LinkedIn](https://www.linkedin.com/in/ajaneeigharo/)
