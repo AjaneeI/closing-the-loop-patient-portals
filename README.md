@@ -86,6 +86,7 @@ Definitions and experiment plan: [Metrics and measurement](docs/metrics-and-meas
 | [Architecture](docs/architecture.md) | Conceptual system and data flow |
 | [AI safety](docs/ai-safety.md) | Allowed uses, prohibited uses, and controls |
 | [Metrics and measurement](docs/metrics-and-measurement.md) | KPI definitions, instrumentation, and experiment design |
+| [Reproducibility and assumptions](docs/reproducibility-and-assumptions.md) | Evidence boundary, hypotheses, non-claims, and pilot validation plan |
 | [Decision log](docs/decision-log.md) | Key choices and tradeoffs |
 | [Portfolio kit](docs/portfolio-kit.md) | Resume, LinkedIn, and interview-ready language |
 | [Visual assets](assets/visuals/) | Portfolio-ready diagrams and prototype views |
@@ -96,7 +97,7 @@ Product analytics · evidence synthesis · workflow design · KPI design · resp
 
 ## Important limitations
 
-This is a concept case study based on secondary research, not a production implementation or measured deployment. It uses no private customer data, proprietary system materials, or individual-level dataset. Proposed metric targets are hypotheses to validate in discovery and pilot work, not measured results.
+This is a concept case study based on secondary research, not a production implementation or measured deployment. It uses no private customer data, proprietary system materials, or individual-level dataset. Proposed metric targets are hypotheses to validate in discovery and pilot work, not measured results. See [Reproducibility and assumptions](docs/reproducibility-and-assumptions.md) for the full evidence boundary and validation plan.
 
 ## Portfolio links
 
